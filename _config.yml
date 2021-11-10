@@ -102,4 +102,6 @@ theme: insulin
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repository: git@github.com:veyron9288/veyron9288.github.io.git
+  branch: master
